@@ -1,22 +1,22 @@
 from PyQt5.QtWidgets import *
 from PyQt5.QtCore import *
 from PyQt5.QtGui import *
-from dialog_main import Ui_Dialog
-from login_page import Ui_MainWindow
-from daily_dialog import Ui_Dialog as daily
-from week_dialog import Ui_Dialog as week
-from question_dialog import Ui_Dialog as question
-from single_month_dialog import Ui_single_month
-from every_month_dialog import Ui_Dialog as every_month
-from login_enter import Ui_Dialog as enter
-from final_words import Ui_Dialog as success
-from home_login import Ui_Dialog as my_page
-from daily_usage import Ui_Dialog as my_daily_money
-from weekly_usage import Ui_Dialog as my_weekly_money
-from every_month_usage import Ui_Dialog as my_monthly_money
-from edit_profile import Ui_Dialog as profile
-from edit_account import Ui_Dialog as account
-from second_final_words import Ui_Dialog as edit_success
+from module.dialog_main import Ui_Dialog
+from module.login_page import Ui_MainWindow
+from module.daily_dialog import Ui_Dialog as daily
+from module.week_dialog import Ui_Dialog as week
+from module.question_dialog import Ui_Dialog as question
+from module.single_month_dialog import Ui_single_month
+from module.every_month_dialog import Ui_Dialog as every_month
+from module.login_enter import Ui_Dialog as enter
+from module.final_words import Ui_Dialog as success
+from module.home_login import Ui_Dialog as my_page
+from module.daily_usage import Ui_Dialog as my_daily_money
+from module.weekly_usage import Ui_Dialog as my_weekly_money
+from module.every_month_usage import Ui_Dialog as my_monthly_money
+from module.edit_profile import Ui_Dialog as profile
+from module.edit_account import Ui_Dialog as account
+from module.second_final_words import Ui_Dialog as edit_success
 import json
 import matplotlib.pyplot as plt
 
